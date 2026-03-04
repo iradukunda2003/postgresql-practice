@@ -1,7 +1,7 @@
 CREATE TABLE Books (
     book_id        SERIAL PRIMARY KEY,
-    title          VARCHAR(200) NOT NULL,
-    author         VARCHAR(150) NOT NULL,
+    title          VARCHAR(200),
+    author         VARCHAR(150),
     genre          VARCHAR(50),
     price          NUMERIC(8, 2),
     stock_quantity INT DEFAULT 0
@@ -21,3 +21,4 @@ CREATE TABLE Orders (
     order_date    DATE DEFAULT CURRENT_DATE,
     total_amount  NUMERIC(10, 2)
 );
+
