@@ -1,0 +1,13 @@
+
+Bookstore Inventory Management System
+
+This is a simple bookstore that tracks books, customers, and orders.
+The files  that created are:
+- create_tables.sql → creates the 3 tables
+- insert_data.sql → adds sample data into the tables
+- manipulate_data.sql → updates, deletes, and searches data
+
+Assumptions
+- stock_quantity defaults to 0 if not provided
+- order_date defaults to today's date
+- customer_id in Orders has no foreign key constraint
