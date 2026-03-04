@@ -7,7 +7,7 @@ INSERT INTO Books (title, author, genre, price, stock_quantity) VALUES
     ('The Alchemist',         'Paulo Coelho',      'Fiction',     13.99, 35);
 
 INSERT INTO Customers (first_name, last_name, email, phone) VALUES
-    ('John',    'Doe',       'john.doe@example.com',   '555-0101'),
+    ('Claudine',    'Iradukunda',       'claudine.Iradukuda@example.com', '555-0101'),
     ('Jane',    'Johnson',   'jane.johnson@email.com', '555-0102'),
     ('Michael', 'Anderson',  'michael.a@webmail.com',  '555-0103'),
     ('Sarah',   'Williams',  'sarah.w@inbox.com',      '555-0104'),
@@ -20,4 +20,5 @@ INSERT INTO Orders (customer_id, order_date, total_amount) VALUES
     (4, '2025-04-10', 32.99),
     (5, '2025-04-15', 99.00),
     (6, '2025-04-20', 55.75),
-    (2, '2025-04-25', 120.00);
+
+    (7, '2025-04-25', 120.00);
